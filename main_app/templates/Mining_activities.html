@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+
+{% block title %}Mining Impacts Research | Curevita Research{% endblock %}
+
+{% block content %}
+<br><br><br><br><br>
+<style>
+    .hero-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/static/assets/img/mining_activities.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        padding: 100px 0;
+        margin-bottom: 50px;
+    }
+    
+    .paper-card {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: -80px;
+        background: white;
+    }
+    
+    .card-header {
+        padding: 25px;
+    }
+    
+    .card-body {
+        padding: 30px;
+    }
+    
+    .btn-download {
+        background-color:rgb(40, 56, 70);
+        border: none;
+        padding: 12px 30px;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+    
+    .btn-download:hover {
+        background-color:rgb(40, 56, 70);
+        transform: translateY(-2px);
+    }
+</style>
+<style>
+    .btn-download, .btn-download:hover {
+        color: white !important;
+    }
+</style>
+<div class="hero-background text-center">
+    <div class="container">
+        <h1 class="display-4 font-weight-bold text-white">Environmental Research</h1>
+        <p class="lead">Impacts of Mining Activities on Groundwater in Tiroid Region, Balaghat District</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="paper-card">
+                <div class="card-header" style="background-color: #f0f7ff; color: #003366; border-bottom: 1px solid #d0e3ff;">
+                    <h3 class="text-center mb-0">Impacts of Mining Activities on the Physicochemical Properties of Groundwater in Tiroid Region Balaghat District: A Comprehensive Review</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="text-muted"></i>Author</h5>
+                            <p>Kuldeep Lakhera</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-muted"></i>Published in</h5>
+                            <p>Curevita Research International Nexus (CIRN), Vol 1, Issue 1, 2025</p>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <h4 class="mb-4"><i class="mr-2 text-primary"></i>Abstract</h4>
+                    <div class="abstract-content">
+                        <p>
+                            This review paper explores the relationship between mining activities and the physicochemical properties of groundwater in the Tiroid region of Balaghat District, Madhya Pradesh.
+                        </p>
+                        <p>
+                            Mining operations have profound implications on the quality and availability of groundwater resources, disturbing parameters such as pH, metal concentrations, and overall water chemistry. The paper examines the diverse mechanisms through which mining activities alter groundwater characteristics, including acid mine drainage, leaching of heavy metals, and subsidence-related impacts.
+                        </p>
+                        <p>
+                            The study highlights significant environmental concerns, showing how coal mining often exposes sulfur-bearing rocks leading to acidic drainage that mobilizes heavy metals, threatening both human health and aquatic ecosystems. Research from various Indian mining regions demonstrates that water in these areas frequently becomes unsuitable for domestic and industrial use without proper treatment.
+                        </p>
+                        <p>
+                            The paper concludes with an evaluation of potential mitigation strategies, emphasizing the need for sustainable mining practices, effective water management, and regular environmental monitoring to safeguard this vital water source for the region's population and ecosystems.
+                        </p>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <div class="text-center mt-5">
+                        <a href="/static/assets/pdf/Paper_No_CRIN004.pdf" class="btn btn-primary btn-lg text-white" download>
+                            <i class="fas fa-download mr-2"></i> Download (PDF)
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer text-muted text-center">
+                    <small>
+                        Citation: Lakhera Kuldeep. 2025. Impacts of Mining Activities on the Physicochemical Properties of Groundwater in Tiroid Region Balaghat District: A Comprehensive Review. <em>Curevita Research International Nexus (CIRN)</em>, 1, 1, 35-41.
+                    <br>
+                    </small>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+</div>
+{% endblock %}

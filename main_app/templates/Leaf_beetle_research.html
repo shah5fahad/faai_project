@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+
+{% block title %}Leaf Beetle Research | Curevita Research{% endblock %}
+
+{% block content %}
+<br><br><br><br><br>
+<style>
+    .hero-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/static/assets/img/narmada_revier.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        padding: 100px 0;
+        margin-bottom: 50px;
+    }
+    
+    .paper-card {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: -80px;
+        background: white;
+    }
+    
+    .card-header {
+        padding: 25px;
+    }
+    
+    .card-body {
+        padding: 30px;
+    }
+    
+    .btn-download {
+        background-color:rgb(40, 56, 70);
+        border: none;
+        padding: 12px 30px;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+    
+    .btn-download:hover {
+        background-color:rgb(40, 56, 70);
+        transform: translateY(-2px);
+    }
+</style>
+<style>
+    .btn-download, .btn-download:hover {
+        color: white !important;
+    }
+</style>
+<div class="hero-background text-center">
+    <div class="container">
+        <h1 class="display-4 font-weight-bold text-white">Entomological Research</h1>
+        <p class="lead">First Record of Leaf Beetle Platypria erinaceus from Rajasthan, India</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="paper-card">
+                <div class="card-header" style="background-color: #f0f7ff; color: #003366; border-bottom: 1px solid #d0e3ff;">
+                    <h3 class="text-center mb-0">Leaf Beetle Platypria erinaceus (Fabricius, 1801) First Record from Rajasthan, India</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="text-muted"></i>Authors</h5>
+                            <p>Anil Sarsavan, Manohar Pawar, Satish Kumar Sharma</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-muted"></i>Published in</h5>
+                            <p>Curevita Research International Nexus (CIRN), Vol 1, Issue 1, 2025</p>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <h4 class="mb-4"><i class="mr-2 text-primary"></i>Abstract</h4>
+                    <div class="abstract-content">
+                        <p>
+                            The leaf beetle Platypria erinaceus is reported for the new addition to the fauna of Rajasthan state, India.
+                        </p>
+                        <p>
+                            Although it is also distributed from other parts of Asia, including India, this study confirms the beetle's presence in Chhalwa village, Udaipur district, Rajasthan, significantly expanding its known distribution within the country. Globally, Platypria erinaceus has garnered attention for its reported potential as a biological control agent against Ziziphus maurtitana, an invasive plant species in certain parts of the world.
+                        </p>
+                        <p>
+                            The beetles were observed on the extremities of the Indian jujube plant (Ziziphus nummularia) in a pasture land dominated by perennial grasses. This record extends the known range of P. erinaceus in India considerably westward, as previous records were primarily from southern, northern and eastern regions of India.
+                        </p>
+                        <p>
+                            Despite its specialized feeding behavior, Platypria erinaceus has not been reported to cause crop damage in India. However, its host specificity has been strategically utilized in other regions, particularly as a biological control agent against invasive Ziziphus mauritiana in Australia.
+                        </p>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <div class="text-center mt-5">
+                        <a href="/static/assets/pdf/Paper_No_CRIN002.pdf" class="btn btn-primary btn-lg text-white" download>
+                            <i class="fas fa-download mr-2"></i> Download (PDF)
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer text-muted text-center">
+                    <small>
+                        Citation: Sarsavan Anil, Pawar Manohar, Sharma Satish Kumar. 2025. Leaf Beetle Platypria erinaceus (Fabricius, 1801) First Record from Rajasthan, India. <em>Curevita Research International Nexus (CIRN)</em>, 1, 1.10-15.
+                    <br>
+                    </small>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+</div>
+{% endblock %}

@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+
+{% block title %}Water Quality Assessment - Narmada River | Curevita Research{% endblock %}
+
+{% block content %}
+<br><br><br><br><br>
+<style>
+    .hero-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/static/assets/img/narmada_revier.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        padding: 100px 0;
+        margin-bottom: 50px;
+    }
+    
+    .paper-card {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: -80px;
+        background: white;
+    }
+    
+    .card-header {
+        padding: 25px;
+    }
+    
+    .card-body {
+        padding: 30px;
+    }
+    
+    .btn-download {
+        background-color:rgb(40, 56, 70);
+        border: none;
+        padding: 12px 30px;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+    
+    .btn-download:hover {
+        background-color:rgb(40, 56, 70);
+        transform: translateY(-2px);
+    }
+</style>
+<style>
+    .btn-download, .btn-download:hover {
+        color: white !important;
+    }
+</style>
+<div class="hero-background text-center">
+    <div class="container">
+        <h1 class="display-4 font-weight-bold text-white">Water Quality Research</h1>
+        <p class="lead">Assessment of Narmada River during COVID-19 Lockdown</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="paper-card">
+                <div class="card-header" style="background-color: #f0f7ff; color: #003366; border-bottom: 1px solid #d0e3ff;">
+    <h3 class="text-center mb-0">Assessment of Water Quality of Narmada River in COVID-19 Pandemic</h3>
+</div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="text-muted"></i>Authors</h5>
+                            <p>Manohar Pawar, Kaleem Shah, and Seema Dhurvey</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-muted"></i>Published in</h5>
+                            <p>Curevita Research International Nexus (CIRN), Vol 1, Issue 1, 2025</p>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <h4 class="mb-4"><i class="mr-2 text-primary"></i>Abstract</h4>
+                    <div class="abstract-content">
+                        <p>
+                            In the present study, the quality of the surface water of the Narmada River (Mandla, Madhya Pradesh) was investigated. Mandla is situated in the eastern part of Madhya Pradesh, part Gondwana tract, a forest-dominated upper valley, and the plateau of the Maikal Hill Ranges.
+                        </p>
+                        <p>
+                            Recently, Mandla has experienced unregulated development activities and rapid population growth in recent decades, both of which have had negative impacts on its ecosystem and environment. Seven sample sites of the Narmada River and its tributaries were selected and water was collected and they were analyzed for a total of five different parameters. The observed data were analyzed using a portable multi-parameter and DO meter.
+                        </p>
+                        <p>
+                            We have undertaken water quality assessments for the Narmada River in Mandla City and its tributaries in the upper catchment area (Surpan, Matiyari, Halon Banjar, and Gour River). During the lockdown, the water quality of the Narmada River in Mandla City has been significantly improved in pH, DO, and TDS physicochemical properties.
+                        </p>
+                        <p>
+                            The study will help set up a baseline for river pollution in Mandla City. It will also help generate awareness among the decision-makers, media, and general public about the water quality in the river Narmada and the contribution of its tributaries to its health.
+                        </p>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <div class="text-center mt-5">
+                        <a href="/static/assets/pdf/Paper_No_CRIN001.pdf" class="btn btn-primary btn-lg text-white" download>
+                            <i class="fas fa-download mr-2"></i> Download (PDF)
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer text-muted text-center">
+                    <small>
+                        Citation: Pawar Manohar, Shah Kaleem, and Dhurvey Seema. 2025. Assessment of Water Quality of Narmada River in COVID-19 pandemic and comparison with water quality of its tributaries in Mandla, Madhya Pradesh. <em>Curevita Research International Nexus (CIRN)</em>, 1, 1-9.
+                    <br>
+                    </small>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+</div>
+{% endblock %}
