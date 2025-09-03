@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+
+{% block title %}Bioremediation Research | Curevita Research{% endblock %}
+
+{% block content %}
+<br><br><br><br><br>
+<style>
+    .hero-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/static/assets/img/narmada_revier.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        padding: 100px 0;
+        margin-bottom: 50px;
+    }
+    
+    .paper-card {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: -80px;
+        background: white;
+    }
+    
+    .card-header {
+        padding: 25px;
+    }
+    
+    .card-body {
+        padding: 30px;
+    }
+    
+    .btn-download {
+        background-color:rgb(40, 56, 70);
+        border: none;
+        padding: 12px 30px;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+    
+    .btn-download:hover {
+        background-color:rgb(40, 56, 70);
+        transform: translateY(-2px);
+    }
+</style>
+<style>
+    .btn-download, .btn-download:hover {
+        color: white !important;
+    }
+</style>
+<div class="hero-background text-center">
+    <div class="container">
+        <h1 class="display-4 font-weight-bold text-white">Environmental Biotechnology</h1>
+        <p class="lead">Bioremediation Potential of Hydrocarbon-Degrading Fungi from Select Soil Niches of India</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="paper-card">
+                <div class="card-header" style="background-color: #f0f7ff; color: #003366; border-bottom: 1px solid #d0e3ff;">
+                    <h3 class="text-center mb-0">Bioremediation Potential of Hydrocarbon-Degrading Fungi from Select Soil Niches of India</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Authors</h5>
+                            <p>Ashutosh Gupta, Akanksha Khare, Naveen Kango, Kailash Prasad Jaiswal</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Published in</h5>
+                            <p>Frontiers of Ecovitality & Resilient Innovation (FERI), Vol 1, Issue 1, 2025</p>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <h4 class="mb-4 text-primary">Abstract</h4>
+                    <div class="abstract-content">
+                        <p>
+                            Petroleum hydrocarbons from human activities are a major source of soil contamination, especially in developing countries like India. 
+                            This study explores the bioremediation potential of hydrocarbon-degrading fungi isolated from oil-contaminated soils.
+                        </p>
+                        <p>
+                            Various fungi including <em>Fusarium sp., Rhizopus sp., Trichoderma harzianum</em> and <em>Aspergillus versicolor</em> 
+                            were found to efficiently degrade hydrocarbons such as naphthalene, acenaphthene, and anthracene. 
+                            Methylene blue reduction tests and biomass analysis confirmed their strong hydrocarbon biodegradation ability.
+                        </p>
+                        <p>
+                            Results demonstrated that fungal isolates could effectively degrade hydrocarbons, with Fusarium and Trichoderma species showing the highest efficiency. 
+                            The study highlights fungi as eco-friendly, cost-effective candidates for cleaning up petroleum hydrocarbon-polluted soils.
+                        </p>
+                        <p>
+                            The findings suggest that indigenous fungi can be developed into bioremediation agents for sustainable and environment-friendly management of hydrocarbon pollution.
+                        </p>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <div class="text-center mt-5">
+                        <a href="/static/assets/pdf/Gupta_etal2025_FAAI_Paper_ID_003.pdf" class="btn btn-primary btn-lg text-white" download>
+                            <i class="fas fa-download mr-2"></i> Download (PDF)
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer text-muted text-center">
+                    <small>
+                        Citation: Gupta A., Khare A., Kango N., Jaiswal K.P. 2025. Bioremediation Potential of Hydrocarbon-Degrading Fungi from Select Soil Niches of India. 
+                        <em>Frontiers of Ecovitality & Resilient Innovation (FERI)</em>, 1(1): 45-63. 
+                        DOI: https://doi.org/10.1000/002
+                    </small>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+</div>
+{% endblock %}

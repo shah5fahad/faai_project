@@ -31,9 +31,9 @@ def DOI_Allocation():
 def Payment():
     return render_template('Payment.html')
 
-@app.route('/narmada_revier')
-def narmada_revier():
-    return render_template('Narmada_revier.html')
+@app.route('/khare_2025_biodegradation')
+def khare_2025_biodegradation():
+    return render_template('khare_2025_biodegradation.html')
 
 
 @app.route('/current_issue')
@@ -41,24 +41,24 @@ def current_issue():
     return render_template('Current_issue.html')
 
 
-@app.route('/leaf_beetle_research')
-def leaf_beetle_research():
-    return render_template('Leaf_beetle_research.html')
+@app.route('/meena_nutrient_supplementation')
+def meena_nutrient_supplementation():
+    return render_template('meena_nutrient_supplementation.html')
 
 
-@app.route('/genetic_fidelity')
-def genetic_fidelity():
-    return render_template('Genetic_fidelity.html')
+@app.route('/bioremediation_fungi')
+def bioremediation_fungi():
+    return render_template('bioremediation_fungi.html')
 
 
-@app.route('/mining_activities')
-def mining_activities():
-    return render_template('Mining_activities.html')
+@app.route('/mhc_polymorphism_naked_neck')
+def mhc_polymorphism_naked_neck():
+    return render_template('mhc_polymorphism_naked_neck.html')
 
 
-@app.route('/groundwater_levels')
-def groundwater_levels():
-    return render_template('Groundwater_levels.html')
+@app.route('/Sharnagat')
+def Sharnagat():
+    return render_template('Sharnagat.html')
 
 @app.route('/group')
 def group():

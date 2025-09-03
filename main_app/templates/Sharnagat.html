@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+
+{% block title %}Biogas Research | Curevita Research{% endblock %}
+
+{% block content %}
+<br><br><br><br><br>
+<style>
+    .hero-background {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/static/assets/img/narmada_revier.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+        padding: 100px 0;
+        margin-bottom: 50px;
+    }
+    
+    .paper-card {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: -80px;
+        background: white;
+    }
+    
+    .card-header {
+        padding: 25px;
+        background-color: #f0f7ff;
+        color: #003366;
+        border-bottom: 1px solid #d0e3ff;
+    }
+    
+    .card-body {
+        padding: 30px;
+    }
+    
+    .btn-download {
+        background-color: rgb(40, 56, 70);
+        border: none;
+        padding: 12px 30px;
+        font-weight: 600;
+        transition: all 0.3s;
+        color: white !important;
+    }
+    
+    .btn-download:hover {
+        background-color: rgb(40, 56, 70);
+        transform: translateY(-2px);
+        color: white !important;
+    }
+</style>
+
+<div class="hero-background text-center">
+    <div class="container">
+        <h1 class="display-4 font-weight-bold text-white">Biogas Research</h1>
+        <p class="lead">Influence of different cultural parameters in biogas production using university food waste</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="paper-card">
+                <div class="card-header">
+                    <h3 class="text-center mb-0">Influence of different cultural parameters in the production of biogas using university food waste in Telangana State of India</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Authors</h5>
+                            <p>Punam Sharnagat and KP Jaiswal</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="text-muted">Published in</h5>
+                            <p>Frontiers of Agri and animal Innovation (FAAI), Vol 1, Issue 1, 2025</p>
+                        </div>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <h4 class="mb-4">Abstract</h4>
+                    <div class="abstract-content">
+                        <p>
+                            This study examined the effect of pH and incubation period on biogas production using university food waste compared with cow dung and sheep waste. Results showed cow dung produced the highest biogas yield (20ml/72hours) followed by sheep manure (15ml/72hours). Alkaline pH and anaerobic dark conditions were optimal for biogas production.
+                        </p>
+                    </div>
+                    
+                    <hr class="my-4">
+                    
+                    <h4 class="mb-4">Keywords</h4>
+                    <p>Biogas, Methane, Anaerobic, food waste, cow dung.</p>
+                    
+                     <div class="text-center mt-5">
+                        <a href="/static/assets/pdf/Sharnagat_2025_FAAI_Paper_ID_05.pdf" class="btn btn-primary btn-lg text-white" download>
+                            <i class="fas fa-download mr-2"></i> Download (PDF)
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer text-muted text-center">
+                    <small>
+                        Citation: Sharnagat Punam, 2025. Influence of different cultural parameters in the production of biogas using university food waste in Telangana State of India. Frontiers of Agri and animal Innovation, 1,1, 79-87.
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br><br>
+</div>
+{% endblock %}
