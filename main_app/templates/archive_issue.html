@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+
+{% block title %}Current Research Issues - Frontiers of Agri & Animal Innovation{% endblock %}
+
+{% block content %}
+<br><br><br><br>
+<style>
+    .research-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .page-title {
+        color: #2c3e50;
+        margin-bottom: 40px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #3498db;
+        text-align: center;
+        font-weight: 600;
+    }
+    .research-card {
+        background-color: white;
+        border-radius: 8px;
+        padding: 25px;
+        margin-bottom: 25px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        border-left: 4px solid #3498db;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .research-card-link {
+        text-decoration: none;
+        color: inherit;
+    }
+    .research-card-link:hover .research-card {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        border-left: 4px solid #2980b9;
+    }
+    .research-card-link:active .research-card {
+        transform: translateY(-2px);
+    }
+    .research-title {
+        color: #2c3e50;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .research-description {
+        color: #555;
+        margin-bottom: 20px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        flex-grow: 1;
+    }
+    .read-more-btn {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 4px;
+        font-weight: 500;
+        transition: background-color 0.3s;
+        align-self: flex-start;
+    }
+    .research-card-link:hover .read-more-btn {
+        background-color: #2980b9;
+    }
+    .research-meta {
+        font-size: 0.9rem;
+        color: #7f8c8d;
+        margin-top: 15px;
+    }
+    @media (max-width: 768px) {
+        .research-card {
+            padding: 20px;
+        }
+        .research-title {
+            font-size: 1.1rem;
+        }
+    }
+</style>
+
+<div class="research-container">
+    <div class="container section-title" data-aos="fade-up">
+        <h1 lass="fw-bold ">Archive Published Issues</h1>
+    </div>
+    <div class="row">
+        <!-- Research Item 1 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+        <a href="/khare_2025_biodegradation" class="research-card-link">
+            <div class="research-card">
+            <h3 class="research-title">Enhancing Biodegradation of Methyl-Parathion By Aspergilli Sp. from Indian Agricultural Soil</h3>
+            <p class="research-description">
+                Authors: Akanksha Khare, Ashutosh Gupta, Naveen Kango, Kailash Prasad Jaiswal.
+                <br><br>
+                Abstract: The study evaluates Aspergilli strains isolated from Indian agricultural soils for biodegradation of methyl-parathion. Results show Aspergillus niger produced highest methyl-parathion hydrolase (MPH) activity and rapidly transformed methyl-parathion to p-nitrophenol and further metabolites, indicating strong potential for bioremediation applications.
+            </p>
+            <button class="read-more-btn">Read More</button>
+            <div class="research-meta">
+                <span>Published: September 2025</span> |
+                <span>Category: Biotechnology / Environmental Science</span>
+            </div>
+            </div>
+        </a>
+        </div>
+
+        
+        <!-- Research Item 2 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <a href="/meena_nutrient_supplementation" class="research-card-link">
+            <div class="research-card">
+                <h3 class="research-title">
+                    To evaluate the effect of strategic nutrient supplementation on the growth performance of Murrah buffalo calves
+                </h3>
+                <p class="research-description">
+                    A feeding trial on eighteen Murrah buffalo calves (6–9 months) evaluated strategic macro- and micronutrient
+                    supplementation over 90 days. Treatment groups receiving tailored supplements showed higher dry-matter intake,
+                    significantly greater average daily gain, and improved feed conversion compared to the control, indicating that
+                    strategic supplementation enhanced growth performance and feed efficiency.
+                </p>
+                <button class="read-more-btn">Read More</button>
+                <div class="research-meta">
+                    <span>Published: September 2025</span> |
+                    <span>Category: Animal Nutrition / Veterinary Science</span>
+                </div>
+            </div>
+            </a>
+        </div>
+
+        
+        <!-- Research Item 3 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <a href="/bioremediation_fungi" class="research-card-link">
+                <div class="research-card">
+                    <h3 class="research-title">Bioremediation Potential of Hydrocarbon-Degrading Fungi from Select Soil Niches of India</h3>
+                    <p class="research-description">
+                        This study investigates the ability of indigenous fungi isolated from hydrocarbon-contaminated soils in India to degrade petroleum hydrocarbons. 
+                        Results revealed that strains such as Fusarium, Rhizopus, Trichoderma harzianum, and Aspergillus versicolor showed significant biodegradation 
+                        efficiency, highlighting their potential role in cost-effective and eco-friendly bioremediation technologies.
+                    </p>
+                    <button class="read-more-btn">Read More</button>
+                    <div class="research-meta">
+                        <span>Published: Sept 2025</span> | 
+                        <span>Category: Biotechnology / Environmental Science</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        
+        <!-- Research Item 4 -->
+       <div class="col-md-6 col-lg-4 mb-4">
+            <a href="/mhc_polymorphism_naked_neck" class="research-card-link">
+                <div class="research-card">
+                    <h3 class="research-title">MHC B-Lβ Polymorphism in Naked Neck Chickens Using PCR-SSP</h3>
+                    <p class="research-description">
+                        Investigation of genetic diversity at MHC B-Lβ (class II) family alleles in Naked Neck chickens, revealing significant polymorphism with 5 alleles and 10 genotypes, and implications for disease resistance breeding programs.
+                    </p>
+                    <button class="read-more-btn">Read More</button>
+                    <div class="research-meta">
+                        <span>Published: September 2025</span> | 
+                        <span>Category: Animal Genetics</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        <!-- Research Item 5 -->
+        <div class="col-md-6 col-lg-4 mb-4">
+            <a href="/Sharnagat" class="research-card-link">
+                <div class="research-card">
+                    <h3 class="research-title">Influence of different cultural parameters in the production of biogas using university food waste in Telangana State of India</h3>
+                    <p class="research-description">
+                        This study examines the effect of pH and incubation period on biogas production using university food waste compared with cow dung and sheep waste. Results showed cow dung produced the highest biogas yield (20ml/72hours) followed by sheep manure (15ml/72hours). Alkaline pH and anaerobic dark conditions were found to be optimal for biogas production.
+                    </p>
+                    <button class="read-more-btn">Read More</button>
+                    <div class="research-meta">
+                        <span>Published: September 2025</span> | 
+                        <span>Category: Biotechnology</span> |
+                        <span>Authors: Punam Sharnagat, KP Jaiswal</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        
+    </div>
+</div>
+
+<br><br><br>
+
+{% endblock %}

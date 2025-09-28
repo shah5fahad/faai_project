@@ -41,6 +41,11 @@ def current_issue():
     return render_template('Current_issue.html')
 
 
+@app.route('/archive_issue')
+def archive_issue():
+    return render_template('archive_issue.html')
+
+
 @app.route('/meena_nutrient_supplementation')
 def meena_nutrient_supplementation():
     return render_template('meena_nutrient_supplementation.html')
